@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+}
+
+
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+}
+.navClass{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  min-height: 5vh;
+  background: #42475a;
+  color: white;
+  list-style: none;
+}
+
+
+
+.menu-links{
+  
+  position: relative;
+  left: -20px;
+  align-items: right;
+  list-style: none;
+  position: right ;
+  
+}
+.nav-links{
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.header{
+  width: 40%;
+  display:list-item;
+  justify-content: space-around;
+  position: center;
+  align-items: center;
+  list-style: none;
+}
+input {
+  width: 300px;
+  background-color:#42475a;
+  border: none;
+}
+button {
+  
+  background-color:#42475a;
+  border: none;
+}
+
+
+
+
+
+
+/* Colors */
+/*
+dark blue: #476A6F
+light blue: #258EA6
+dark green: #519E8A
+medium green: #7EB09B
+light green: #A3C4BC
+*/
+
+.wrapper {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.form-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  align-items: center;
+}
+
+
+
+
+
+label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+}
+
+
+#form {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  background-color:#ECECE4;
+  
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  background-color:#ECECE4;
+  color: #999;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+small{
+  color: #999;
+}
+.phoneNumber {
+  padding-top: 40px;
+  margin-right: 1%;
+  width: 49%;
+}
+
+#submit{
+  position:relative;
+  display: flex;
+  align-content: center;
+  align-self: center;
+}
+.phoneNumber,
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+
+.email,
+.password {
+  width: 100%;
+}
+
+.createAccount {
+  width: 25% ;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.createAccount button {
+  background-color:blue;
+  flex-direction: column;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 10px 10px 10px 10px;
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+
+
+
